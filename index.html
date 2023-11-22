@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Paprika&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- navbar start -->
+    <div class="bg-navbarBg py-[18px] w-[100%] fixed z-50">
+        <div class="max-w-containerWidth mx-auto flex items-center justify-between text-white font-semibold text-[18px] font-openS">
+            <picture>
+                <img src="images/Logo.png" alt="">
+            </picture>
+            <ul class="flex space-x-[42px]">
+                <li><a href="#" class="hover:text-universalGreen">Home <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#" class="hover:text-universalGreen">About <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#" class="hover:text-universalGreen">Service <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#" class="hover:text-universalGreen">Portfolio <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#" class="hover:text-universalGreen">Price <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#" class="hover:text-universalGreen">Blog <i class="fa-solid fa-angle-down"></i></a></li>
+            </ul>
+            <button class="bg-universalGreen border-ra px-[28px] py-[14px] rounded-full">CONTACT US</button>
+        </div>
+    </div>
+    <!-- navbar end -->
+    <!-- banner start -->
+    <div class="bg-bannerBg w-[100%] h-[960px]">
+        <div class="bg-bannerOverlay w-[100%] h-[100%] flex flex-col justify-center text-white">
+            <h1 class="w-[962px] font-bold text-[74px] font-openS mx-auto text-center">YOURE UNIQUE.YOUR WEBSITE SHOULD BE TOO</h1>
+            <p class="w-[715px] font-normal text-[24px] font-pp mx-auto text-center mt-[20px] mb-[36px]">A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business.</p>
+            <ul class="flex flex-row justify-center font-bold text-[20px] font-openS">
+                <li><a href="#" class="px-[40px] rounded-full py-[20px] border-2 border-universalGreen hover:bg-universalGreen mx-[14px]">GET QUOTA</a></li>
+                <li><a href="#" class="px-[40px] rounded-full py-[20px] border-2 border-universalGreen hover:bg-universalGreen">LEARN MORE</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- banner end -->
+    <!-- numbers start -->
+    <div class="mx-auto bg-offWhite h-[704px] w-[100%] relative">
+        <ul class="flex space-x-[30px] justify-center">
+            <li class="bg-myGray rounded-b-lg w-[270px] h-[230px]"></li>
+            <li class="bg-myGray rounded-b-lg w-[200px] h-[350px]"></li>
+            <li class="bg-myGray rounded-b-lg w-[340px] h-[300px]"></li>
+            <li class="bg-myGray rounded-b-lg w-[270px] h-[370px]"></li>
+        </ul>
+        <svg class="absolute right-0 top-0" xmlns="http://www.w3.org/2000/svg" width="311" height="429" viewBox="0 0 311 429" fill="none">
+            <path d="M0.00744453 110.721C-0.397218 70.4417 15.727 32.2108 40.6294 0H464V388.702C432.405 412.193 395.114 428.298 355.986 428.981C291.956 430.067 229.825 385.195 210.899 324.187C195.709 275.157 200.938 211.015 156.301 185.414C111.103 159.471 38.5438 192.117 9.59483 148.859C2.21752 137.811 0.131956 124.033 0.00744453 110.721Z" fill="#EDE6F7"/>
+        </svg>
+        <ul class="flex justify-center space-x-[40px] mt-[100px]">
+            <li>
+                <h1 class="font-extrabold text-[64px] font-openS text-universalGreen text-center">53k</h1>
+                <p class="font-bold text-[36px] font-openS text-center">Happy Clients</p>
+            </li>
+            <li>
+                <div class="h-[132px] w-[4px] rounded-full bg-myGray"></div>
+            </li>
+            <li>
+                <h1 class="font-extrabold text-[64px] font-openS text-universalGreen text-center">10k</h1>
+                <p class="font-bold text-[36px] font-openS text-center">Projects Done</p>
+            </li>
+            <li>
+                <div class="h-[132px] w-[4px] rounded-full bg-myGray"></div>
+            </li>
+            <li>
+                <h1 class="font-extrabold text-[64px] font-openS text-universalGreen text-center">120</h1>
+                <p class="font-bold text-[36px] font-openS text-center">Gets Award</p>
+            </li>
+            <li>
+                <div class="h-[132px] w-[4px] rounded-full bg-myGray"></div>
+            </li>
+            <li>
+                <h1 class="font-extrabold text-[64px] font-openS text-universalGreen text-center">16</h1>
+                <p class="font-bold text-[36px] font-openS text-center">Operated Years</p>
+            </li>
+        </ul>
+    </div>
+    <!-- numbers end -->
+    <!-- why us start -->
+    <div class="bg-weirdOffWhite h-[800px] w-[100%] relative">
+        <svg class="absolute top-0" xmlns="http://www.w3.org/2000/svg" width="383" height="340" viewBox="0 0 383 340" fill="none">
+            <path d="M272.805 100.81C241.575 114.894 212.6 134.607 195.365 164.947C168.156 212.854 188.551 292.318 140.734 328.968C127.856 338.838 110.433 341.995 94.5038 338.801C83.9361 336.679 73.7968 331.944 64.1991 325.595C83.6996 321.068 99.5289 309.131 102.316 285.936C103.673 274.637 101.404 263.26 99.3815 252.063C93.6263 220.163 104.821 198.365 118.118 170.243C129.364 146.46 136.812 121.891 121.816 97.7798C106.484 73.1324 80.2204 51.6112 52.6888 42.1404C34.8131 35.9905 16.7351 34.6785 -1 36.913V0H383C374.914 62.025 322.884 78.2231 272.805 100.81Z" fill="#FFEFE2"/>
+        </svg>
+        <svg class="absolute top-0" xmlns="http://www.w3.org/2000/svg" width="130" height="292" viewBox="0 0 130 292" fill="none">
+            <path d="M52.594 6.24929C80.077 15.7233 106.294 37.2517 121.599 61.9073C136.569 86.0229 129.134 110.603 117.907 134.394C104.635 162.526 93.4559 184.331 99.2043 216.242C101.22 227.446 103.485 238.823 102.133 250.126C99.3514 273.329 83.55 285.271 64.084 289.799C43.417 294.608 18.6166 291.06 0.87851 283.767C0.248917 283.507 -0.373825 283.24 -1 282.977V1.01673C16.7004 -1.21506 34.7499 0.0973509 52.594 6.24929Z" fill="#EDE6F6"/>
+        </svg>
+        <div class="max-w-containerWidth mx-auto flex absolute top-[100px]">
+            <ul>
+                <li>
+                    <div class="flex bg-weirdOffWhite rounded-lg py-[42px] w-[568px] hover:bg-white shadow-shadowColor hover:drop-shadow-xl">
+                        <picture class="my-auto px-[28px]">
+                            <img src="images/circles.svg" alt="">
+                        </picture>
+                        <p class="font-normal text-[18px] font-pp text-ppColor w-[366px]">
+                            We solve real-world problems through people and the web.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex bg-weirdOffWhite rounded-lg py-[42px] w-[568px] hover:bg-white shadow-shadowColor hover:drop-shadow-xl">
+                        <picture class="my-auto px-[28px]">
+                            <img src="images/circles.svg" alt="">
+                        </picture>
+                        <p class="font-normal text-[18px] font-pp text-ppColor w-[366px]">
+                            We make processes and technology work efficiently together.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex bg-weirdOffWhite rounded-lg py-[42px] w-[568px] hover:bg-white shadow-shadowColor hover:drop-shadow-xl">
+                        <picture class="my-auto px-[28px]">
+                            <img src="images/circles.svg" alt="">
+                        </picture>
+                        <p class="font-normal text-[18px] font-pp text-ppColor w-[366px]">
+                            We advance improve existing technology through research and development.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex bg-weirdOffWhite rounded-lg py-[42px] w-[568px] hover:bg-white shadow-shadowColor hover:drop-shadow-xl">
+                        <picture class="my-auto px-[28px]">
+                            <img src="images/circles.svg" alt="">
+                        </picture>
+                        <p class="font-normal text-[18px] font-pp text-ppColor w-[366px]">
+                            We develop long-lasting and scalable solutions, relationships partnerships.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <div class="ml-[186px]">
+                <h1 class="font-bold text-[48px] font-openS">
+                    Why Choose Us
+                </h1>
+                <p class="font-normal text-[18px] font-pp text-ppColor mb-[40px] mt-[10px]">
+                    We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs.
+                </p>
+                <button class="bg-universalGreen border-ra px-[28px] py-[14px] rounded-full text-white font-semibold text-[18px] font-openS">CONTACT US</button>
+            </div>
+        </div>
+    </div>
+    <!-- why us end -->
+    <!-- what we do start -->
+    <div class="py-[100px] bg-offWhite">
+        <div class="max-w-containerWidth mx-auto">
+            <ul class="flex justify-between flex-wrap">
+                <li class="h-[395px] w-[370px]">
+                    <h1 class="font-bold text-[48px] font-openS">What We Do</h1>
+                    <p class="font-normal text-[18px] text-ppColor font-openS mt-[20px] mb-[56px]">We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
+                    <button class="bg-universalGreen border-ra px-[28px] py-[14px] rounded-full text-white font-semibold text-[18px] font-openS">CONTACT US</button>
+                </li>
+                <li class="card h-[395px] w-[370px] bg-white rounded-lg hover:bg-cardPurple hover:text-offWhite px-[50px] pt-[50px]">
+                    <img class="mx-auto" src="images/web-design 1.png" alt="">
+                    <h1 class="font-bold mx-auto text-[30px] font-openS mt-[32px]">What We Do</h1>
+                    <p class="mx-auto font-normal text-[18px] text-ppColor font-pp mt-[16px] mb-[28px] card-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <p class="mx-auto font-bold text-[18px] font-openS">Read more</p>
+                </li>
+                <li class="card h-[395px] w-[370px] bg-white rounded-lg hover:bg-cardPurple hover:text-offWhite px-[50px] pt-[50px]">
+                    <img class="mx-auto" src="images/web-design 1.png" alt="">
+                    <h1 class="font-bold mx-auto text-[30px] font-openS mt-[32px]">What We Do</h1>
+                    <p class="mx-auto font-normal text-[18px] text-ppColor font-pp mt-[16px] mb-[28px] card-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <p class="mx-auto font-bold text-[18px] font-openS">Read more</p>
+                </li>
+                <li class="card h-[395px] w-[370px] bg-white rounded-lg hover:bg-cardPurple hover:text-offWhite px-[50px] pt-[50px] mt-[30px]">
+                    <img class="mx-auto" src="images/web-design 1.png" alt="">
+                    <h1 class="font-bold mx-auto text-[30px] font-openS mt-[32px]">What We Do</h1>
+                    <p class="mx-auto font-normal text-[18px] text-ppColor font-pp mt-[16px] mb-[28px] card-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <p class="mx-auto font-bold text-[18px] font-openS">Read more</p>
+                </li>
+                <li class="card h-[395px] w-[370px] bg-white rounded-lg hover:bg-cardPurple hover:text-offWhite px-[50px] pt-[50px] mt-[30px]">
+                    <img class="mx-auto" src="images/web-design 1.png" alt="">
+                    <h1 class="font-bold mx-auto text-[30px] font-openS mt-[32px]">What We Do</h1>
+                    <p class="mx-auto font-normal text-[18px] text-ppColor font-pp mt-[16px] mb-[28px] card-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <p class="mx-auto font-bold text-[18px] font-openS">Read more</p>
+                </li>
+                <li class="card h-[395px] w-[370px] bg-white rounded-lg hover:bg-cardPurple hover:text-offWhite px-[50px] pt-[50px] mt-[30px]">
+                    <img class="mx-auto" src="images/web-design 1.png" alt="">
+                    <h1 class="font-bold mx-auto text-[30px] font-openS mt-[32px]">What We Do</h1>
+                    <p class="mx-auto font-normal text-[18px] text-ppColor font-pp mt-[16px] mb-[28px] card-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <p class="mx-auto font-bold text-[18px] font-openS">Read more</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- what we do end -->
+    <!-- navbar start -->
+    <!-- navbar end -->
+    <!-- navbar start -->
+    <!-- navbar end -->
+    <!-- navbar start -->
+    <!-- navbar end -->
+
+
+
+
+
+
+
+    <script src="js/tailwind.config.js"></script>
+</body>
+</html>
